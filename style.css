@@ -39,10 +39,11 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
 .container{ 
-    max-width: 1140px;
+    box-sizing: border-box;
+    max-width: 1170px;
    margin-left: auto;
    margin-right: auto;
-   padding:0 25px;
+   padding:0 15px;
 }
 .btn {
     display: flex;
@@ -239,7 +240,7 @@ padding: 60px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 100px;
+    padding-right: 90px;
 
 
 
