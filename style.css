@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{ 
+    margin: 0;
+    color:#fff;
+    background-color: #1C1C1C;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+     background-color: #1C1C1C;
+        
+}
+ 
+a {color: #fff;
+    text-decoration: none;
+}
+
+
+ul{list-style: none; 
+    padding: 0;
+    margin: 0;
+    
+}
+
+p {
+    margin: 0;
+}
+
+p + p{
+    margin-top: 15px;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+    font-weight: 500;
+    margin: 0;
+}
+.container{ 
+    max-width: 1140px;
+   margin-left: auto;
+   margin-right: auto;
+   padding:0 25px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 165px;
+    height: 40px;
+
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    background: #F6762C;
+    border-radius: 5px;
+
+    transition: opacity 0.3s;
+}
+
+.btn :hover {
+    opacity: 0.8;
+}
+
+
+/* Шапка */
+
+.header {
+ padding: 25px;
+ margin: 10px;
+ position: relative;
+ z-index: 10;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header_logo {}
+
+
+
+.header_nav a {
+ font-size: 14px;
+ opacity: 0.7;
+ transition: opacity 0.3s;   
+        
+}
+
+.header_nav a:hover {
+    
+ opacity: 0.9;
+
+}
+.header_nav a.active {
+ opacity: 1;
+}
+
+
+
+.header-list {
+ display: flex;
+ gap: 30px;
+}
+
+.main {}
+
+/* Приветственная секция */
+
+
+
+.welcome {
+    box-sizing: border-box;
+    min-height: 100vh;
+   
+    margin-top: -100px;
+    padding: 240px 0;
+  
+    background-image: url(./images/welcome-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome__text{
+    width: 550px;
+    
+}
+
+
+.container {
+
+}
+
+
+
+.welcome_subtitle {
+margin-bottom: 7px;
+font-weight: 500;
+letter-spacing: 0.1em;
+
+}
+
+
+
+.welcome_title {
+font-size: 58px;
+
+}
+
+
+
+.welcome_desc {
+margin: 40px 0;
+font-size: 18px;
+opacity: 0.7;
+}
+
+/* Список еды */
+
+.food_list .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 10px;
+
+}
+
+.food_list {
+    padding: 100px 0;
+
+}
+
+
+
+.container {
+
+}
+
+
+
+.food-list__card {
+    width: 260px;
+    background-color: #312F30;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.food-list_img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.food-list__text_wrapper {
+    padding: 30px 20px;
+}
+
+.food-list__title {
+    font-size: 20px;
+    margin-bottom: 15px ;
+
+}
+
+
+
+.food-list__desc {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+
+
+.food-list__img {
+
+}
+
+/* Order*/
+
+.oder {
+background-color: #312F30;
+padding: 60px 0;
+}
+
+
+
+.oder .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+
+
+
+}
+
+
+
+.order__img {
+    max-width: 470px;
+
+}
+
+
+
+.oder__text {
+    max-width: 360px;
+
+}
+
+
+
+.oder_title {
+    font-size: 44px;
+    margin-bottom: 25px;
+
+
+
+}
+
+
+
+.oder_desc { 
+   opacity: 0.7;
+   margin-bottom: 15px;
+
+
+}
+
+
+
+.oder__price {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+
+
+}
+.oder__price + .oder__price{
+    margin-left: 3px;
+}
+
+
+.oder__old-price {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-decoration: line-through;
+    opacity: 0.5;
+    color: #F6762C;
+    
+}
+
+.oder .btn{
+    margin-top: 10px;
+}
