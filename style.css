@@ -412,30 +412,82 @@ padding: 60px 0;
 }
 /* Feedback */
 
-.feedback {}
-
-
-
-.container {}
-
-
-
-.feedback_img {}
-
-
-
-.feedback_text {
-    text-align: center;
+.feedback {
+padding-bottom: 200px;
 }
 
 
 
-.feedback_desc {}
+.feedback .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 880px;
+}
 
 
 
-.feedback__autor {}
+.feedback_img {
+
+}
 
 
 
-.feedback__subautor {}
+.feedback_text {
+margin: 0;
+text-align: center;
+
+width: 370px;
+
+display: flex;
+flex-direction: column;
+}
+
+.feedback_text::before {
+content: url(./socials/quote.svg)
+}
+
+.feedback_desc{
+text-align: center;
+opacity: 0.7;
+margin: 40px 0 30px;
+}
+
+
+
+.feedback__autor {
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+}
+
+
+
+.feedback__subautor {
+font-weight: 500;
+font-size: 12px;
+opacity: 0.7;
+display: block;
+}
+
+/* Download */
+
+
+.download {
+background: #312F30;
+padding: 60px 0;
+}
+
+.download .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.download_title {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.btn {
+
+}
